@@ -1,0 +1,14 @@
+#utfextension-toolbar-button{
+  list-style-image: url("chrome://utfextension/skin/icon.png");
+}
+
+/* senao cada SO usa seu tema */
+#utf-menupop{
+    background: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+#utf-menupop-textbox{
+    max-width: 400px;
+    font-size: 23px;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://utfextension/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://utfextension/locale/overlay.dtd">
+<overlay id="utfextension-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="utfextension-strings" src="chrome://utfextension/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="utfextension-toolbar-button" class="toolbarbutton-1 chromeclass-toolbar-additional"
+        label="&utfextensionToolbarButton.label;" tooltiptext="&utfextensionToolbarButton.tooltip;"
+            type="menu-button"
+            popup="utf-menupop"
+        />
+  </toolbarpalette>
+
+    <popupset id="mainPopupSet">
+        <menupopup id="utf-menupop" position="after_start" onpopupshowing="utf.showingpopup();">
+
+<textbox id="utf-menupop-textbox" multiline="true" rows="18" value="
+☺☻☹☃☠
+⚠⚡✆♿
+✈☎☏☂☔✉☄☽☾☕✇❤
+☯✝✞✟☨☦☭☮☪☫☬☩✠☧✡
+♈♉♊♋♌♍♎♏♐♑♒♓
+♀♂☿♁⚢⚣⚤⚥⚦⚧⚨⚩
+❁❀✿✽✾❃⚘☘
+♚♔♛♕♜♖♝♗♞♘♟♙
+♥♡♠♤♦♢♣♧
+✩★☆✪✫✬✭✮✯✰☼☸☉❂
+♬♫♩
+♺♽♼♻♲♳♴♵♶♷♸♹
+✱✲✳✴✵✶✷✸✹✺✻✼❉❊❋
+❄❅❆
+☤⚕⚒⚓⚙⚜
+☢☣⚝⚛
+☐☑☒✓✔✕✖✗✘✚
+✌✍☟☝☜☚☞☛
+➘➙➚➝➜➟➡➢➤➩⟲⟳⟷⟵⟶⟿
+✂✄✏✎✐
+©®™
+£$€
+¶§❝❞
+∞ø≠%…∫≈∴∝
+µ∂ΩΦΨλϴω
+¿
+℃℉
+⚑⚐
+❦☙♨☁⚖
+"/>
+        </menupopup>
+    </popupset>
+
+</overlay>

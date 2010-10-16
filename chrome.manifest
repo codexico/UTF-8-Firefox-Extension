@@ -1,0 +1,7 @@
+content   utfextension                 chrome/content/
+skin      utfextension   classic/1.0   chrome/skin/
+locale    utfextension   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://utfextension/content/ff-overlay.xul
+style chrome://global/content/customizeToolbar.xul chrome://utfextension/skin/overlay.css
