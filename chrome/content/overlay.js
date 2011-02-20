@@ -18,4 +18,4 @@ var utfextension = {
   }
 };
 
-window.addEventListener("load", utfextension.onLoad, false);
+window.addEventListener("load", function (event) { utfextension.onLoad(event); }, false);
