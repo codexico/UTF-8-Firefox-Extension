@@ -1,5 +1,8 @@
 #utfextension-toolbar-button{
-  list-style-image: url("chrome://utfextension/skin/icon.png");
+  list-style-image: url("chrome://utfextension/skin/icon16.png");
+}
+toolbar[iconsize="small"] #utfextension-toolbar-button{
+  list-style-image: url("chrome://utfextension/skin/icon16.png");
 }
 
 /* senao cada SO usa seu tema */
