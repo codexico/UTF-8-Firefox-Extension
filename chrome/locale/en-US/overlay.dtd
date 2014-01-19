@@ -1,8 +1,0 @@
-<!ENTITY utfextension.label "Your localized menuitem">
-<!ENTITY utfextensionContext.label "Your Menuitem">
-<!ENTITY utfextensionContext.accesskey "Y">
-<!ENTITY utfextensionToolbarButton.label "UTF-8">
-<!ENTITY utfextensionToolbarButton.tooltip "UTF-8 characters">
-<!ENTITY utfextensionSidebar.label "Your Sidebar">
-<!ENTITY utfextensionToolbar.name  "example">
-<!ENTITY utfextensionToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &utfextensionToolbar.name;">
